@@ -1,65 +1,48 @@
-/* Pyoncord Custom Theme: Pastel Chaos UwU */
-:root {
-    --background-primary: #fef6ff; /* soft pastel pink */
-    --background-secondary: #ffeefc; /* lighter highlight panels */
-    --background-tertiary: #f9e6ff; /* card backgrounds */
-    
-    --text-normal: #2c1a33; /* dark purple text for readability */
-    --text-muted: #9d7ea3; /* soft muted text */
-    
-    --accent-primary: #ff99ff; /* bright fuchsia for buttons, links */
-    --accent-secondary: #ffb3ff; /* lighter highlight accent */
-    
-    --scrollbar-bg: #ffe6ff;
-    --scrollbar-thumb: #ff99ff;
-    
-    --status-online: #ff66ff; /* cute glowing online status */
-    --status-offline: #d1a3d1; /* muted offline */
-    --status-idle: #ffccff;
-    --status-dnd: #ff3399;
-}
-
-body {
-    font-family: "Renogare", "Segoe UI", sans-serif; /* celeste vibe */
-}
-
-/* Buttons and links */
-.button-1, .button-2, .link {
-    background-color: var(--accent-primary);
-    color: #fff;
-    border-radius: 12px;
-    transition: 0.2s ease;
-}
-
-.button-1:hover, .button-2:hover, .link:hover {
-    background-color: var(--accent-secondary);
-}
-
-/* Cards */
-.card {
-    background-color: var(--background-tertiary);
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-
-/* Sidebar */
-.sidebar {
-    background-color: var(--background-secondary);
-}
-
-/* Scrollbar customization */
-::-webkit-scrollbar {
-    width: 10px;
-    background: var(--scrollbar-bg);
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--scrollbar-thumb);
-    border-radius: 5px;
-}
-
-/* Hover glow for avatars */
-.avatar:hover {
-    box-shadow: 0 0 12px var(--accent-primary);
-    transition: 0.2s ease;
+{
+  "name": "Pastel Chaos UwU",
+  "type": "light",
+  "colors": {
+    "backgroundPrimary": "#fef6ff",
+    "backgroundSecondary": "#ffeefc",
+    "backgroundTertiary": "#f9e6ff",
+    "textNormal": "#2c1a33",
+    "textMuted": "#9d7ea3",
+    "accentPrimary": "#ff99ff",
+    "accentSecondary": "#ffb3ff",
+    "scrollbarBg": "#ffe6ff",
+    "scrollbarThumb": "#ff99ff",
+    "statusOnline": "#ff66ff",
+    "statusOffline": "#d1a3d1",
+    "statusIdle": "#ffccff",
+    "statusDnd": "#ff3399"
+  },
+  "fonts": {
+    "primary": "Renogare, Segoe UI, sans-serif"
+  },
+  "components": {
+    "button": {
+      "background": "#ff99ff",
+      "color": "#ffffff",
+      "borderRadius": "12px",
+      "hoverBackground": "#ffb3ff"
+    },
+    "card": {
+      "background": "#f9e6ff",
+      "borderRadius": "15px",
+      "boxShadow": "0 4px 12px rgba(0,0,0,0.05)"
+    },
+    "sidebar": {
+      "background": "#ffeefc"
+    },
+    "avatar": {
+      "hoverGlow": "#ff99ff",
+      "hoverShadow": "0 0 12px"
+    },
+    "scrollbar": {
+      "width": "10px",
+      "background": "#ffe6ff",
+      "thumb": "#ff99ff",
+      "thumbBorderRadius": "5px"
+    }
+  }
 }
