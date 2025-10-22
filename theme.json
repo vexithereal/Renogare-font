@@ -1,48 +1,17 @@
 {
   "name": "Pastel Chaos UwU",
   "type": "light",
-  "colors": {
-    "backgroundPrimary": "#fef6ff",
-    "backgroundSecondary": "#ffeefc",
-    "backgroundTertiary": "#f9e6ff",
-    "textNormal": "#2c1a33",
-    "textMuted": "#9d7ea3",
-    "accentPrimary": "#ff99ff",
-    "accentSecondary": "#ffb3ff",
-    "scrollbarBg": "#ffe6ff",
-    "scrollbarThumb": "#ff99ff",
-    "statusOnline": "#ff66ff",
-    "statusOffline": "#d1a3d1",
-    "statusIdle": "#ffccff",
-    "statusDnd": "#ff3399"
-  },
-  "fonts": {
-    "primary": "Renogare, Segoe UI, sans-serif"
-  },
-  "components": {
-    "button": {
-      "background": "#ff99ff",
-      "color": "#ffffff",
-      "borderRadius": "12px",
-      "hoverBackground": "#ffb3ff"
-    },
-    "card": {
-      "background": "#f9e6ff",
-      "borderRadius": "15px",
-      "boxShadow": "0 4px 12px rgba(0,0,0,0.05)"
-    },
-    "sidebar": {
-      "background": "#ffeefc"
-    },
-    "avatar": {
-      "hoverGlow": "#ff99ff",
-      "hoverShadow": "0 0 12px"
-    },
-    "scrollbar": {
-      "width": "10px",
-      "background": "#ffe6ff",
-      "thumb": "#ff99ff",
-      "thumbBorderRadius": "5px"
-    }
+  "variables": {
+    "background-primary": "#fef6ff",
+    "background-secondary": "#ffeefc",
+    "background-tertiary": "#f9e6ff",
+    "text-normal": "#2c1a33",
+    "text-muted": "#9d7ea3",
+    "accent-primary": "#ff99ff",
+    "accent-secondary": "#ffb3ff",
+    "status-online": "#ff66ff",
+    "status-offline": "#d1a3d1",
+    "status-idle": "#ffccff",
+    "status-dnd": "#ff3399"
   }
 }
